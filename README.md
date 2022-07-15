@@ -1,8 +1,12 @@
-### PluralSight Spring Data Access
-# 1. Building Applications Using Spring JDBC 5
-- PluralSight: Building Applications Using Spring JDBC 5
-- https://app.pluralsight.com/library/courses/building-applications-spring-jdbc/table-of-contents
-- GitHub sample: https://github.com/bh5k/ride_tracker
+### PluralSight: Spring Framework - Data Access with Spring
+
+# 1. Spring Framework: Overview of Spring Data
+- PluralSight: https://app.pluralsight.com/library/courses/spring-framework-overview-spring-data
+- Github: 
+
+# 2. Building Applications Using Spring JDBC 5
+- PluralSight: https://app.pluralsight.com/library/courses/building-applications-spring-jdbc
+- Github: https://github.com/bh5k/ride_tracker
 - CRUD: Create - Retrieve - Update - Delete
 - Create record: JdbcTemplate, SimpleJdbcInsert, ORM
 - Retrieve record: JdbcTemplate, RowMapper, SimpleJdbcCall, PreparedStatementCreateor
@@ -11,10 +15,16 @@
 - Exception: ExceptionHandler, ServiceError, ThrowError
 - Transaction: TransactionManager, @Transactional, Commit/Rollback
 
-# 2. Spring Framework 4: Spring Data JPA
-- PluralSight: Spring Framework 4: Spring Data JPA
-- https://app.pluralsight.com/library/courses/spring-data-jpa-getting-started/table-of-contents
-- GitHub sample: https://github.com/dlbunker/ps-spring-data-jpa
+# 3. Spring Framework: Spring Data JPA
+- PluralSight: https://app.pluralsight.com/library/courses/spring-data-jpa-getting-started
+- Github: https://github.com/dlbunker/ps-spring-data-jpa
 - JPA (Java Persistence API): have JpaRepository, JPQL (Query DSL)
 - JPA Repository: java interface (not class), map 1 to 1 with JPA entity, focus to DAO contract
 
+# 4. Spring Framework: Spring Data JPA 5 with Hibernate
+- PluralSight: https://app.pluralsight.com/library/courses/spring-jpa-hibernate
+- Github: 
+
+# 5. Spring Framework: Spring Data MongoDB2
+- PluralSight: https://app.pluralsight.com/library/courses/spring-framework-data-mongodb
+- 
