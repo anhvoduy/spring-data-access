@@ -133,4 +133,3 @@ public class RideRepository implements IRideRepository {
     }
 
 }
-

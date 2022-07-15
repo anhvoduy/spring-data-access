@@ -47,9 +47,8 @@ public class RideService implements IRideService {
 
         rideRepository.editRides(pairs);
 
-        throw new DataAccessException("Testing Exception Handling") {
-
-        };
+        /*throw new DataAccessException("Testing Exception Handling") {
+        };*/
     }
 
     @Override
