@@ -14,5 +14,7 @@
 # 2. Spring Framework 4: Spring Data JPA
 - PluralSight: Spring Framework 4: Spring Data JPA
 - https://app.pluralsight.com/library/courses/spring-data-jpa-getting-started/table-of-contents
-- 
+- GitHub sample: https://github.com/dlbunker/ps-spring-data-jpa
+- JPA (Java Persistence API): have JpaRepository, JPQL (Query DSL)
+- JPA Repository: java interface (not class), map 1 to 1 with JPA entity, focus to DAO contract
 
