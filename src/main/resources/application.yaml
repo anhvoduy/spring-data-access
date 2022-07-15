@@ -1,0 +1,11 @@
+airline:
+  welcome: ${salutation} by Racing
+student:
+  welcome: ${salutation} by Racing
+  learning: Information System
+server:
+  port: 5001
+  servlet:
+    context-path: /uat
+
+title: Welcome Spring Data
