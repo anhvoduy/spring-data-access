@@ -26,5 +26,21 @@
 - Github: 
 
 # 5. Spring Framework: Spring Data MongoDB2
-- PluralSight: https://app.pluralsight.com/library/courses/spring-framework-data-mongodb
+- https://app.pluralsight.com/library/courses/spring-framework-data-mongodb/table-of-contents
+- Version: MongoDB 2.1.9 (from 2.1.9 to 2.2.13), SpringBoot 2.2.1
+- Mongo GUI: Mongo Compass, Robo 3T
+- Spring dependency: spring-boot-starter, spring-boot-starter-data-mongodb
+- Mongo Data Annotation frequently: @Document @Id @Field @Transient @Indexed @TextIndexed @CompoundIndex @DbRef
+ex: @Document(collection='airplanes')
+    public class Aircraft { 
+        @Id private long id;
+        @Indexed(direction=IndexDirection.ASCENDING, unique=false) private string model;
+        @Field private int seats;
+        @DbRef priavate Manufacturer man;
+        ... 
+    }
+- Mongo Repository Interface: Repository<T, ID>, CrudRepository <T, ID>, PagingAndSortingRepository<T, ID>, MongoRepository<T, ID>
+- Mongo Template to execute CRUD: creating, retrieving, updating, deleting documents
+- Mongo converter: a feature used for mapping all java types to/from DBObjects when storing or retrieving these objects, or serialization/deserialization of fields
+- DBRef format: $ref (name of collection), $id (value of _id field), $db (name of the database)
 - 
