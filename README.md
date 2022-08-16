@@ -23,8 +23,8 @@
 
 # 4. Spring Framework: Spring Data JPA 5 with Hibernate
 - PluralSight: https://app.pluralsight.com/library/courses/spring-jpa-hibernate
-- Github: 
+- Github: https://github.com/bh5k/spring-jpa
 
 # 5. Spring Framework: Spring Data MongoDB2
 - PluralSight: https://app.pluralsight.com/library/courses/spring-framework-data-mongodb
-- 
+- Github: refer to Spring to DynamoDB at https://github.com/anhvocap/spring-dynamodb
