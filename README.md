@@ -23,7 +23,7 @@
 
 # 4. Spring Framework: Spring Data JPA 5 with Hibernate
 - PluralSight: https://app.pluralsight.com/library/courses/spring-jpa-hibernate
-- Github: 
+- Github: https://github.com/bh5k/spring-jpa
 
 # 5. Spring Framework: Spring Data MongoDB2
 - https://app.pluralsight.com/library/courses/spring-framework-data-mongodb/table-of-contents
@@ -43,4 +43,7 @@ ex: @Document(collection='airplanes')
 - Mongo Template to execute CRUD: creating, retrieving, updating, deleting documents
 - Mongo converter: a feature used for mapping all java types to/from DBObjects when storing or retrieving these objects, or serialization/deserialization of fields
 - DBRef format: $ref (name of collection), $id (value of _id field), $db (name of the database)
-- 
+
+# 5. Spring Framework: Spring Data DynamoDB
+- PluralSight: https://app.pluralsight.com/library/courses/spring-framework-data-mongodb
+- Github: refer to Spring to DynamoDB at https://github.com/anhvocap/spring-dynamodb
