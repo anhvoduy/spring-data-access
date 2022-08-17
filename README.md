@@ -1,12 +1,12 @@
-# PluralSight: Spring Framework - Data Access with Spring
+# Spring Framework - Data Access with Spring
 
 ### 1. Spring Framework: Overview of Spring Data
-- PluralSight: https://app.pluralsight.com/library/courses/spring-framework-overview-spring-data
+- Refer: https://app.pluralsight.com/library/courses/spring-framework-overview-spring-data
 - Spring Data Overview: https://github.com/mogronalol/spring-data-overview-pluralsight
 - Spring Data JPA: https://github.com/spring-projects/spring-data-jpa
 
 ### 2. Building Applications Using Spring JDBC 5
-- PluralSight: https://app.pluralsight.com/library/courses/building-applications-spring-jdbc
+- Refer: https://app.pluralsight.com/library/courses/building-applications-spring-jdbc
 - Github: https://github.com/bh5k/ride_tracker
 - CRUD: Create - Retrieve - Update - Delete
 - Create record: JdbcTemplate, SimpleJdbcInsert, ORM
@@ -17,17 +17,17 @@
 - Transaction: TransactionManager, @Transactional, Commit/Rollback
 
 ### 3. Spring Framework: Spring Data JPA
-- PluralSight: https://app.pluralsight.com/library/courses/spring-data-jpa-getting-started
+- Refer: https://app.pluralsight.com/library/courses/spring-data-jpa-getting-started
 - Github: https://github.com/dlbunker/ps-spring-data-jpa
 - JPA (Java Persistence API): have JpaRepository, JPQL (Query DSL)
 - JPA Repository: java interface (not class), map 1 to 1 with JPA entity, focus to DAO contract
 
 ### 4. Spring Framework: Spring Data JPA 5 with Hibernate
-- PluralSight: https://app.pluralsight.com/library/courses/spring-jpa-hibernate
+- Refer: https://app.pluralsight.com/library/courses/spring-jpa-hibernate
 - Github: https://github.com/bh5k/spring-jpa
 
 ### 5. Spring Framework: Spring Data to MongoDB2
-- https://app.pluralsight.com/library/courses/spring-framework-data-mongodb/table-of-contents
+- Refer: https://app.pluralsight.com/library/courses/spring-framework-data-mongodb/table-of-contents
 - Version: MongoDB 2.1.9 (from 2.1.9 to 2.2.13), SpringBoot 2.2.1
 - Mongo GUI: Mongo Compass, Robo 3T
 - Spring dependency: spring-boot-starter, spring-boot-starter-data-mongodb
@@ -46,5 +46,5 @@ ex: @Document(collection='airplanes')
 - DBRef format: $ref (name of collection), $id (value of _id field), $db (name of the database)
 
 ### 6. Spring Framework: Spring Data toDynamoDB
-- PluralSight: https://app.pluralsight.com/library/courses/spring-framework-data-mongodb
-- Github: refer to Spring to DynamoDB at https://github.com/anhvocap/spring-dynamodb
+- Refer: https://app.pluralsight.com/library/courses/spring-framework-data-mongodb
+- Github: https://github.com/anhvocap/spring-dynamodb
