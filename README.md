@@ -1,10 +1,11 @@
-### PluralSight: Spring Framework - Data Access with Spring
+# PluralSight: Spring Framework - Data Access with Spring
 
-# 1. Spring Framework: Overview of Spring Data
+### 1. Spring Framework: Overview of Spring Data
 - PluralSight: https://app.pluralsight.com/library/courses/spring-framework-overview-spring-data
-- Github: 
+- Spring Data Overview: https://github.com/mogronalol/spring-data-overview-pluralsight
+- Spring Data JPA: https://github.com/spring-projects/spring-data-jpa
 
-# 2. Building Applications Using Spring JDBC 5
+### 2. Building Applications Using Spring JDBC 5
 - PluralSight: https://app.pluralsight.com/library/courses/building-applications-spring-jdbc
 - Github: https://github.com/bh5k/ride_tracker
 - CRUD: Create - Retrieve - Update - Delete
@@ -15,17 +16,17 @@
 - Exception: ExceptionHandler, ServiceError, ThrowError
 - Transaction: TransactionManager, @Transactional, Commit/Rollback
 
-# 3. Spring Framework: Spring Data JPA
+### 3. Spring Framework: Spring Data JPA
 - PluralSight: https://app.pluralsight.com/library/courses/spring-data-jpa-getting-started
 - Github: https://github.com/dlbunker/ps-spring-data-jpa
 - JPA (Java Persistence API): have JpaRepository, JPQL (Query DSL)
 - JPA Repository: java interface (not class), map 1 to 1 with JPA entity, focus to DAO contract
 
-# 4. Spring Framework: Spring Data JPA 5 with Hibernate
+### 4. Spring Framework: Spring Data JPA 5 with Hibernate
 - PluralSight: https://app.pluralsight.com/library/courses/spring-jpa-hibernate
 - Github: https://github.com/bh5k/spring-jpa
 
-# 5. Spring Framework: Spring Data MongoDB2
+### 5. Spring Framework: Spring Data to MongoDB2
 - https://app.pluralsight.com/library/courses/spring-framework-data-mongodb/table-of-contents
 - Version: MongoDB 2.1.9 (from 2.1.9 to 2.2.13), SpringBoot 2.2.1
 - Mongo GUI: Mongo Compass, Robo 3T
@@ -44,6 +45,6 @@ ex: @Document(collection='airplanes')
 - Mongo converter: a feature used for mapping all java types to/from DBObjects when storing or retrieving these objects, or serialization/deserialization of fields
 - DBRef format: $ref (name of collection), $id (value of _id field), $db (name of the database)
 
-# 5. Spring Framework: Spring Data DynamoDB
+### 6. Spring Framework: Spring Data toDynamoDB
 - PluralSight: https://app.pluralsight.com/library/courses/spring-framework-data-mongodb
 - Github: refer to Spring to DynamoDB at https://github.com/anhvocap/spring-dynamodb
